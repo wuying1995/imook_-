@@ -1,0 +1,47 @@
+html, body, div, ul, li, h1, h2, h3, h4, h5, h6, p, dl, dt, dd, ol, form, input, textarea, th, td, select {
+    margin: 0;
+    padding: 0;
+}
+a { text-decoration: none; }
+body {
+    font-family: "Microsoft YaHei";
+    font-size:14px;
+    color:#333;
+}
+h1, h2, h3, h4, h5, h6{font-weight:normal;}
+ul,ol {
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: #232323;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+
+
+.wrap{
+    width:1000px;
+    height: 1000px;
+    margin:0 auto;
+    border:1px solid red;
+}
+.nav_left{
+    float: left;
+}
+.nav_right{
+    width: 720px;
+    height: 40px;
+    line-height: 40px;
+    float: left;
+}
